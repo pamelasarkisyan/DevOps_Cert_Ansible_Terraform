@@ -1,5 +1,5 @@
 - name: "generate war file"
-  hosts: local
+  hosts: server2
   become: true
   vars:
           gitdir: "/tmp/addressbook-project-1"
